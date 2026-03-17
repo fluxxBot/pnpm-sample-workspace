@@ -1,0 +1,16 @@
+{
+  "name": "@sample/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://ecosysjfrog.jfrog.io/artifactory/api/npm/npm-local/"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.0"
+  }
+}

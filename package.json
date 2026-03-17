@@ -1,0 +1,18 @@
+{
+  "name": "sample-pnpm-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sample pnpm workspace project",
+  "publishConfig": {
+    "registry": "https://ecosysjfrog.jfrog.io/artifactory/api/npm/npm-local/"
+  },
+  "scripts": {
+    "publish:all": "pnpm -r publish --no-git-checks",
+    "publish:dry": "pnpm -r publish --dry-run --no-git-checks"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "uuid": "^9.0.0"
+  },
+  "packageManager": "pnpm@10.27.0+sha512.72d699da16b1179c14ba9e64dc71c9a40988cbdc65c264cb0e489db7de917f20dcf4d64d8723625f2969ba52d4b7e2a1170682d9ac2a5dcaeaab732b7e16f04a"
+}
