@@ -7,7 +7,7 @@
   ],
   "publishConfig": {
     "access": "public",
-    "registry": "https://ecosysjfrog.jfrog.io/artifactory/api/npm/npm-local/"
+    "registry": "<repository>"
   },
   "dependencies": {
     "lodash": "^4.17.21",
