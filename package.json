@@ -4,7 +4,7 @@
   "private": true,
   "description": "Sample pnpm workspace project",
   "publishConfig": {
-    "registry": "https://ecosysjfrog.jfrog.io/artifactory/api/npm/npm-local/"
+    "registry": "<repository>"
   },
   "scripts": {
     "publish:all": "pnpm -r publish --no-git-checks",
